@@ -4,8 +4,9 @@ int main()
 {
     try
     {
-        App app;
-        app.run();
+        App *app = new App();
+        app->run();
+        delete app;
     }
     catch (const std::exception &e)
     {

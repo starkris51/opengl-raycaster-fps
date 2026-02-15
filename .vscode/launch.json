@@ -2,10 +2,10 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Run RaycastFPS",
+      "name": "Run project",
       "type": "cppdbg",
       "request": "launch",
-      "program": "${workspaceFolder}/build/RaycastFPS",
+      "program": "${workspaceFolder}/build/opengl-sdl3-project",
       "args": [],
       "cwd": "${workspaceFolder}",
       "stopAtEntry": false,
